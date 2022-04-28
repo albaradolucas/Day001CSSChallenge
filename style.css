@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+/* use only the available space inside the 400x400 frame*/
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+    background: rgb(68,72,164);
+    background: linear-gradient(45deg, rgba(68,72,164,1) 35%, rgba(77,191,200,1) 100%);
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+}
+
+.letter {
+    background: #d5d5d5;
+    height: 190px;
+    width: 30px;
+    position: relative;
+    border-radius: 5px;
+}
+
+span {
+    background: #f1f1f1;
+    height: 80px;
+    width: 35px;
+    position: absolute;
+    right: 20px;
+    transform: skew(-25deg);
+    border-radius: 5px;
+}
