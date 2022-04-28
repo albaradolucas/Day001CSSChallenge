@@ -25,21 +25,3 @@
     left: 50%;
     transform: translate(-50%,-50%);   
 }
-
-.letter {
-    background: #d5d5d5;
-    height: 190px;
-    width: 30px;
-    position: relative;
-    border-radius: 5px;
-}
-
-span {
-    background: #f1f1f1;
-    height: 80px;
-    width: 35px;
-    position: absolute;
-    right: 20px;
-    transform: skew(-25deg);
-    border-radius: 5px;
-}
